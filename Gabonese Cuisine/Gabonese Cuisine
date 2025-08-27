@@ -29,19 +29,20 @@
 
   <!-- Simple image gallery linking to recipes below -->
   <div class="gallery">
-    <a href="Gabonese Cuisine  Chiken Nyembwe.jpg"><img src="Gabonese Cuisine  Chiken Nyembwe.jpg" alt="Chiken Nyembwe" ></a> 
+    <a href="Gabonese Cuisine Atangas.jpg"><img src="Gabonese Cuisine Atangas.jpg" alt="Atangas" ></a> 
 
   </div>
 
   <!-- Recipes -->
 
-  <div id="Chiken Nyembwe" class="recipe">
-    <h2> Chiken Nyembwe</h2>
-    <p><b>Ingredients:</b> 
+  <div id="Atangas" class="recipe">
+    <h2> Atangas</h2>
+    <p><b>Ingredients:</b> Hot water , spices to your liking...</p>
+    <p><b>Steps:</b></p>
     <ol>
       <li></li>
-      <li>Add rice and soy sauce, stir well.</li>
-      <li>Scramble eggs and mix everything together.</li>
+      <li>Boil some water as if cooking some pasta.</li>
+      <li>Then put the atanga in the boiling water. Let it soak in the water that you have boiled earlir for about 5minutes </li>
     </ol>
   </div>
   
