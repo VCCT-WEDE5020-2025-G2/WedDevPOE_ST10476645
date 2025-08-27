@@ -18,24 +18,68 @@
             padding: 10px 20px;
             width: 40%;
             margin: 10px; 
+            border: none;
         }
         .button:hover{
             background-color: #a00; 
             cursor: pointer; 
         }
         .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-        .gallery.active{
-            display:block
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+           
         }
         .gallery-container {
-            width: 200px;
-            text-align: center;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           gap: 15px;
+           margin: 20px
         }
+        .meal-item { 
+           width: 200px;
+            text-align: center;
+            border: 2px solid #800;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .meal-item:hover  {
+           border-color: #800
+        }
+        .meal-image{
+            width: 180px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .meal-image img{ 
+            width: 100%;
+            height: 100%;
+            border-radius: 3px;
+            object-fit: cover;  
+        }
+        .meal-name{ 
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        #noob:target ~ .gallery-section .gallery-noob,
+        #not-so-bad:target ~ .gallery-section .gallery-not-so-bad,
+        #could-say-i-know-how-to-cook:target ~ .gallery-section .gallery-could-say-i-know-how-to-cook,
+        #masterchef-here-i-come:target ~ .gallery-section .gallery-masterchef-here-i-come {
+            display: block;
+        }
+        .gallery-section{
+            margin-top: 20px;
+        }
+      
         </style>
 </head>
 <body background="Background9Mightkeep.jpg">
@@ -46,16 +90,28 @@
     <p style="font-family: sans-serif;">What level are you looking for?</p> 
     <br> <!--This is used as a space between texts-->
 
-    <button class="button" onclick="window.location.href='Levels.html'">Complete noob</button>
-    <button class="button" onclick="window.location.href='Levels.html'">Not so bad</button>   
-    <button class="button" onclick="window.location.href='Levels.html'">Could say i know how to cook </button>
-    <button class="button" onclick="window.location.href='Levels.html'"> MasterChef here i come </button>
+    <button class="button" onclick="window.location.href='#noob'">Complete noob</button>
+    <button class="button" onclick="window.location.href='#notsobad'">Not so bad</button>   
+    <button class="button" onclick="window.location.href='#could-say-i-know-how-to-cook'">Could say i know how to cook </button>
+    <button class="button" onclick="window.location.href='#masterchef-here-i-come'"> MasterChef here i come </button>
     <br><br> <!--This is used as a space between texts-->
-    </div>
+    </div> 
+
+    <div id="noob"></div>
+    <div id="not-so-bad"></div> 
+    <div id="could-say-i-know-how-to-cook"></div>
+    <div id="masterchef-here-i-come"></div> 
 
     <hr> <!--This represent a line -->
-    <h4> Gallery of dishes matching the level clicked<h4>
-    <br><br> 
+    <div class="gallery-section">
+        <h2>Recipe Gallery</h2>
+        <div class="gallery gallery-noob">
+            <h4>Onigiri</h4> 
+        <img src="Recipes level1/Japanese Cuisine (Onigiri).jpg" alt="Onigiri" width="300" height="200"> 
+    </div>
+   
+
+    
     
 
     <br>
