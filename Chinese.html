@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Cuisine</title>
+    <style>
+            h1 {
+                color: black;
+            }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery-item {
+            width: 200px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+        .caption {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+        .back {
+            margin-top: 30px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chinese Cuisine</h1>
+    <p>Click on a dish to view the recipe:</p>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="KungPao.html">
+                <img src="images/kungpao.jpg" alt="Kung Pao Chicken">
+                <div class="caption">Kung Pao Chicken</div>
+            </a>
+        </div>
+     
+        </div>
+    </div>
+
+    <p class="back"><a href="Home.html">⬅ Back to Home</a></p>
+</body>
+</html>
