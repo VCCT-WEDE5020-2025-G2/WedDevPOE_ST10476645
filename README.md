@@ -6,6 +6,6 @@
 
 ## Installation
 
-- Use this github link
+- Use this github link https://github.com/st10476645/WedDevPOE.git
 - Download the zip file then extract it from your downloaded files
 - Test the website on your brower of choice
