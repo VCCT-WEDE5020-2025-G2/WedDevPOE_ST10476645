@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinese Cuisine</title>
-    <style>
-            h1 {
-                color: black;
-            }
-        .gallery {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
+  <meta charset="UTF-8">
+  <title>Chinese Cuisine</title>
+  <style>
+     h1 {
+            color: black;
         }
-        .gallery-item {
-            width: 200px;
-            text-align: center;
-        }
-        .gallery-item img {
-            width: 100%;
-            height: auto;
+        .button{
+            background-color: #800;
             border-radius: 10px;
-            cursor: pointer;
-            transition: transform 0.3s;
+            color:white;
+            padding: 10px 20px;
+            width: 40%;
+            margin: 10px; 
         }
-        .gallery-item img:hover {
-            transform: scale(1.05);
-        }
-        .caption {
-            margin-top: 8px;
-            font-weight: bold;
-        }
-        .back {
-            margin-top: 30px;
-            display: inline-block;
-        }
-    </style>
+    body { font-family: sans-serif; text-align: center; }
+    .gallery img { width: 200px; border-radius: 8px; margin: 10px; }
+    .recipe { text-align: left; max-width: 600px; margin: 20px auto; }
+  </style>
 </head>
-<body>
-    <h1>Chinese Cuisine</h1>
-    <p>Click on a dish to view the recipe:</p>
+<body background="Background9Mightkeep.jpg" >  
+<header>
+        <a href="Home.html"><img src="Chef@Home logo.jpg" alt="Chef@Home Logo" width="150" height="95"></a>
+    <div style="text-align: center;">
+  <h1>Chinese Cuisine</h1>
+  <p>Click a dish to jump to the recipe:</p>
 
-    <div class="gallery">
-        <div class="gallery-item">
-            <a href="KungPao.html">
-                <img src="images/kungpao.jpg" alt="Kung Pao Chicken">
-                <div class="caption">Kung Pao Chicken</div>
-            </a>
-        </div>
-     
-        </div>
-    </div>
+  <!-- Simple image gallery linking to recipes below -->
+  <div class="gallery">
+    <a href="#friedrice"><img src="Chinese Recipes/Chinese  Cuisne Fried Rice.jpg" alt="Fried Rice"></a>
+    
+  </div>
 
-    <p class="back"><a href="Home.html">⬅ Back to Home</a></p>
+  <!-- Recipes -->
+
+  <div id="friedrice" class="recipe">
+    <h2>Fried Rice</h2>
+    <p><b>Ingredients:</b> Cooked rice, eggs, peas, carrots, soy sauce...</p>
+    <p><b>Steps:</b></p>
+    <ol>
+      <li>Fry chopped veggies until soft.</li>
+      <li>Add rice and soy sauce, stir well.</li>
+      <li>Scramble eggs and mix everything together.</li>
+    </ol>
+  </div>
+
+  <div style="text-align: center;"></div>
+  <button class="button" onclick="window.location.href='Home.html'"> Back</button>
+  </div>
+
+
+   
 </body>
 </html>
