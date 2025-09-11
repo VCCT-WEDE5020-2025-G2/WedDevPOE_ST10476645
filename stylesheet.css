@@ -1,0 +1,14 @@
+ h1 {
+            color: black;
+        }
+        h1,h2,h3,h4,p,button{
+            text-align: center;
+        }
+        .button{
+            background-color: #800;
+            border-radius: 10px;
+            color:white;
+            padding: 10px 20px;
+            width: 40%;
+            margin: 10px; 
+        }
