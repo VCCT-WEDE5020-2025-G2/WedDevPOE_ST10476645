@@ -26,13 +26,20 @@
     body { font-family: sans-serif; text-align: center; }
     .gallery img { width: 200px; border-radius: 8px; margin: 10px; }
     .recipe { text-align: left; max-width: 600px; margin: 20px auto; }
-        /* From Uiverse.io by alexruix */ 
+        /* From Uiverse.io by alexruix with modifications */ 
+.card-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+    gap: 1rem; 
+}
+/* From Uiverse.io by alexruix */ 
 .card {
  width: 190px;
  height: 254px;
  border-radius: 20px;
  background: #f5f5f5;
- position: relative; 
+ position: relative;
  padding: 1.8rem;
  border: 2px solid #c3c6ce;
  transition: 0.5s ease-out;
@@ -45,7 +52,6 @@
  gap: .5em;
  display: grid;
  place-content: center;
- position: center;
 }
 
 .card-button {
@@ -53,7 +59,7 @@
  width: 60%;
  border-radius: 1rem;
  border: none;
- background-color: #008bf8;
+ background-color: #800020;
  color: #fff;
  font-size: 1rem;
  padding: .5rem 1rem;
@@ -76,11 +82,11 @@
 
 /*Hover*/
 .card:hover {
- border-color: #008bf8;
+ border-color: #800020;
  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
 }
 
 .card:hover .card-button {
  transform: translate(-50%, 50%);
  opacity: 1;
-} 
+}
