@@ -9,7 +9,7 @@
 <body background="Background9Mightkeep.jpg" >  
 <header>
         <a href="Home.html"><img src="Images used/Chef@Home logo.jpg" alt="Chef@Home Logo" width="150" height="95"></a>
-    <div style="text-align: center;">
+
   <h1>Chinese Cuisine</h1>
   <p>Click a dish to jump to the recipe:</p>
 
@@ -26,7 +26,7 @@
      <img src="Images used/Chinese Recipes/Chinese  Cuisne Fried Rice.jpg" alt="Fried Rice" style="width:300px;height:auto;" class="recipe-image">
     <h2 class="text-title">Chinese Fried Rice</h2> 
     <p class="text-body">A classic Chinese dish made with stir-fried rice, vegetables, and your choice of protein, seasoned with soy sauce and sesame oil.</p>
-    <button class="dropdownbtn">Show recipe<i class="fas fa-chevron-down"></button>
+    <button onclick="Showrecipe()" class="dropdownbtn">Show recipe<i class="fas fa-chevron-down"></button>
     <div class="dropdown-content">
         <h3 class="text-title">Ingredients:</h3>
         <ul>
@@ -56,7 +56,16 @@
         </ol>
     </div>
 </div> 
-
+<script>
+  function Showrecipe() {
+    var content = document.querySelector('.dropdown-content');
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  } 
+</script> 
 </div>   
   <button class="backbtn" onclick="window.location.href='Home.html'"> Back</button>
 </div> 
