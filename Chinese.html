@@ -20,13 +20,11 @@
   </div>
 
 <div class="recipes">
-  <!-- Recipes -->
-  <div class="recipe-card">
-    <!--Recipe 1-->
-     <img src="Images used/Chinese Recipes/Chinese  Cuisne Fried Rice.jpg" alt="Fried Rice" style="width:300px;height:auto;" class="recipe-image">
-    <h2 class="text-title">Chinese Fried Rice</h2> 
-    <p class="text-body">A classic Chinese dish made with stir-fried rice, vegetables, and your choice of protein, seasoned with soy sauce and sesame oil.</p>
-    <button onclick="Showrecipe()" class="dropdownbtn">Show recipe<i class="fas fa-chevron-down"></button>
+  <div class="recipe-card" id="Friedrice">
+    <img src="Images used/Chinese Recipes/Chinese  Cuisne Fried Rice.jpg" alt="Fried Rice" class="recipe-image">
+    <h2 class="recipe-title">Chinese Fried Rice</h2>
+    <p class="recipe-desc">A classic Chinese dish made with stir-fried rice, vegetables, and your choice of protein, seasoned with soy sauce and sesame oil.</p>
+    <button class="show-recipe-btn" onclick="Showrecipe(this)">Show Recipe<span class="arrow">&#x25BC;</span> <!-- Span wrap the arrow icon to make it easier to style--></button>
     <div class="dropdown-content">
         <h3 class="text-title">Ingredients:</h3>
         <ul>
@@ -55,22 +53,10 @@
           <li>Serve hot and enjoy your homemade Chinese fried rice!</li>
         </ol>
     </div>
-</div> 
-<script>
-  function Showrecipe() {
-    var content = document.querySelector('.dropdown-content');
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  } 
-</script> 
+  </div>
 </div>   
   <button class="backbtn" onclick="window.location.href='Home.html'"> Back</button>
 </div> 
-
-
-   
+<script src="script.js"></script>  
 </body>
 </html>
