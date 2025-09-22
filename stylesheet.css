@@ -83,7 +83,7 @@ h1,h2,h3,h4,p{
  font-weight: bold;
 }
 
-/*Hover*/
+/*Hover*/ 
 .card:hover {
  border-color: #800020;
  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
@@ -93,6 +93,7 @@ h1,h2,h3,h4,p{
  transform: translate(-50%, 50%);
  opacity: 1;
 } /* From Uiverse.io by alexruix */
+   /*Homepage styling*/
 
 .gallery { 
   display: grid; 
@@ -138,11 +139,14 @@ h1,h2,h3,h4,p{
 .dropdownbtn:hover {
   background-color: #a00030; 
 }
-.dropdowncontent {
+.dropdown-content {
   display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+  text-align: left;
+  background: white; /* Ensures content is visible */
+  position: relative; /* Prevents overlay issues */
   z-index: 1;
-}
+} /* Cuisines styling */
