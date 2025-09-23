@@ -6,6 +6,6 @@ function Showrecipe(button) { //Function used by the dropdown buttons in the dif
         button.querySelector('.arrow').innerHTML = "&#x25BC;";// This line changes the arrow direction
     } else {
         content.style.display = "block"; // If the content is hidden the function shows it
-        button.querySelector('arrow').innerHTML = "&#x25B2;";  
+        button.querySelector('.arrow').innerHTML = "&#x25B2;";  
     } 
 }

@@ -3,29 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="stylesheet.css">
   <title>Chinese Cuisine</title> 
 </head>
-<body background="Background9Mightkeep.jpg" >  
-<header>
-        <a href="Home.html"><img src="Images used/Chef@Home logo.jpg" alt="Chef@Home Logo" width="150" height="95"></a>
+<body background="Background9Mightkeep.jpg">  
+  <header>
+    <a href="Home.html">
+      <img src="Images used/Chef@Home logo.jpg" alt="Chef@Home Logo" width="150" height="95">
+    </a>
+    <h1>Chinese Cuisine</h1>
+    <p>Click a dish to jump to the recipe:</p>
+  </header>
 
-  <h1>Chinese Cuisine</h1>
-  <p>Click a dish to jump to the recipe:</p>
-
-  <!-- Simple image gallery linking to recipes below --> 
+  <!-- Simple image gallery linking to recipes below. When the user will click on one of  --> 
   <div class="gallery"> 
-    <a href="#Friedrice"><img src="Images used/Chinese Recipes/Chinese  Cuisne Fried Rice.jpg" alt="Fried Rice"></a> 
-    <a href="#Porkbelly"><img src="Images used/Chinese Recipes/Chinese Cuisine Pork belly.jpg" alt="#Pork belly"></a><!-- when clicking on the image the user will get directed to the recipes of the meal-->
+    <a href="#Friedrice">
+      <img src="Images used/Chinese Recipes/Chinese  Cuisne Fried Rice.jpg" alt="Fried Rice">
+    </a> 
+    <a href="#Porkbelly">
+      <img src="Images used/Chinese Recipes/Chinese Cuisine Pork belly.jpg" alt="Pork belly">
+    </a>
+    <a href="#Chicken Chow Mein">
+      <img src="Images used/Chinese Recipes/Chinese Cuisine (Chicken Chow Mein).jpg" alt="Chiken Chow Mein"> 
+    </a>
+    <a href="#Chinese Crepes(Jian Bing/煎饼)">
+      <img src="Images used/Chinese Recipes/Jian Bing, Chinese crepes (煎饼).jpg" alt="Chinese Crepes(Jian Bing/煎饼)">   
+    </a> 
   </div>
 
-<div class="recipes">
-  <div class="recipe-card" id="Friedrice">
-    <img src="Images used/Chinese Recipes/Chinese  Cuisne Fried Rice.jpg" alt="Fried Rice" class="recipe-image">
-    <h2 class="recipe-title">Chinese Fried Rice</h2>
-    <p class="recipe-desc">A classic Chinese dish made with stir-fried rice, vegetables, and your choice of protein, seasoned with soy sauce and sesame oil.</p>
-    <button class="show-recipe-btn" onclick="Showrecipe(this)">Show Recipe<span class="arrow">&#x25BC;</span> <!-- Span wrap the arrow icon to make it easier to style--></button>
-    <div class="dropdown-content"> 
+  <div class="recipes">
+    <div class="recipe-card" id="Friedrice">
+      <img src="Images used/Chinese Recipes/Chinese  Cuisne Fried Rice.jpg" alt="Fried Rice" class="recipe-image">
+      <h2 class="recipe-title">Chinese Fried Rice</h2>
+      <p>A classic Chinese dish made with stir-fried rice, vegetables, and your choice of protein, seasoned with soy sauce and sesame oil.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)"> <!--Upon clicking the show recipe button the showrecipe function will be used -->
+        Show Recipe <span class="arrow">&#x25BC;</span> <!-- Span wraps the arrow making it easier to style-->
+      </button>
+      <div class="dropdown-content"> <!-- Makes the steps and ingredients styling easier -->
         <h3 class="text-title">Ingredients:</h3>
         <ul>
           <li>2 cups cooked rice (preferably day-old)</li>
@@ -39,10 +53,9 @@
           <li>2 green onions, sliced</li>
           <li>Salt and pepper to taste</li> 
         </ul>
-
-        <h3 class="text-title">Instructions:</h3>
+        <h3 class="text-title">Steps:</h3> 
         <ol>
-          <li>Heat a large skillet or wok over medium-high heat. Add a bit of oil and scramble the beaten eggs until fully cooked. Remove from the skillet and set aside.</li>
+          <li>Heat a large skillet over medium-high heat. Add a bit of oil and scramble the beaten eggs until fully cooked. Remove from the skillet and set aside.</li>
           <li>Add a bit more oil to the skillet and sauté the garlic and ginger until fragrant.</li>
           <li>Add the mixed vegetables and cook until tender.</li>
           <li>If using, add the diced cooked chicken, shrimp, or tofu to the skillet and stir-fry for a couple of minutes.</li>
@@ -52,11 +65,123 @@
           <li>Add the sliced green onions and season with salt and pepper to taste. Stir well.</li>
           <li>Serve hot and enjoy your homemade Chinese fried rice!</li>
         </ol>
+      </div> 
     </div>
+
+    <div class="recipe-card" id="Porkbelly">
+      <img src="Images used/Chinese Recipes/Chinese Cuisine Pork belly.jpg" alt="Pork Belly" class="recipe-image">
+      <h2 class="recipe-title">Chinese Braised Pork Belly (Hong Shao Rou)</h2>
+      <p>A rich and flavorful dish featuring tender pork belly braised in a savory and slightly sweet soy-based sauce.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
+      </button>
+      <div class="dropdown-content"> 
+        <h3 class="text-title">Steps:</h3>
+        <ul> 
+          <li>1 lb pork belly, cut into cubes</li>
+          <li>2 tablespoons vegetable oil</li>
+          <li>2 tablespoons sugar</li>
+          <li>3 tablespoons soy sauce</li>
+          <li>2 tablespoons dark soy sauce</li>
+          <li>1/4 cup Shaoxing wine (or dry sherry)</li>
+          <li>1 cup water or chicken broth</li>
+          <li>3-4 slices ginger</li>
+          <li>2 cloves garlic, smashed</li>
+          <li>2 star anise</li>
+          <li>2 green onions, cut into 2-inch pieces</li>
+          <li>Salt to taste</li>
+        </ul>
+        <h3 class="text-title">Steps:</h3> 
+        <ol>
+          <li>Blanch the pork belly cubes in boiling water for 2-3 minutes to remove impurities. Drain and set aside.</li>
+          <li>Heat the vegetable oil in a large pot over medium heat. Add the sugar and cook until it melts and turns a caramel color.</li>
+          <li>Add the blanched pork belly cubes to the pot and stir to coat them in the caramelized sugar.</li>
+          <li>Add the soy sauce, dark soy sauce, and Shaoxing wine. Stir to combine.</li>
+          <li>Add the water or chicken broth, ginger slices, smashed garlic, star anise, and green onions. Bring to a boil.</li>
+          <li>Reduce the heat to low, cover, and let it simmer for about 1.5 to 2 hours, or until the pork belly is tender and the sauce has thickened. Stir occasionally to prevent sticking.</li>
+          <li>Season with salt to taste. Remove the ginger, garlic, star anise, and green onions before serving.</li>
+          <li>Serve hot with steamed rice and enjoy your delicious Chinese braised pork belly!</li>
+        </ol>
+      </div>
+    </div>
+    <div class="recipe-card" id=" Chiken Chow Mein">
+      <img src="Images used/Chinese Recipes/Chinese Cuisine (Chicken Chow Mein).jpg" alt="Chicken Chow Mein" class="recipe-image">
+      <h2 class="recipe-title">Chicken Chow Mein</h2>
+      <p> A popular Chinese stir-fried noodle dish made with tender chicken, vegetables, and savory sauce</p> 
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
+      </button>
+      <div class="dropdown-content"> 
+        <h3 class="text-title">Ingredients</h3>
+        <ul>
+          <li>Chow mein noodles</li>
+          <li>Boneless chicken breast, thinly sliced</li>
+          <li>Mixed vegetables (bell peppers, carrots, bean sprouts)</li>
+          <li>2 cloves garlic, minced</li>
+          <li>2 tablespoons soy sauce</li>
+          <li>1 tablespoon oyster sauce</li>
+          <li>1 teaspoon sesame oil</li>
+          <li>2 tablespoons vegetable oil</li>
+          <li>Salt and pepper to taste</li>
+          <li>Green onions for garnish (optional)</li>
+        </ul>
+        <h3 class="text-title">Steps</h3>
+        <ol>
+          <li>Cook the chow mein noodles according to the package instructions. Drain and set aside.</li>
+          <li>Heat 1 tablespoon of vegetable oil in a large skillet or wok over medium-high heat. Add the sliced chicken and cook until fully cooked. Remove from the skillet and set aside.</li>
+          <li>In the same skillet, add the remaining vegetable oil. Sauté the minced garlic until fragrant.</li>
+          <li>Add the mixed vegetables and stir-fry until they are tender-crisp.</li>
+          <li>Return the cooked chicken to the skillet and mix with the vegetables.</li>
+          <li>Add the cooked noodles to the skillet. Pour in the soy sauce, oyster sauce, and sesame oil. Toss everything together to combine well.</li>
+          <li>Season with salt and pepper to taste. Stir-fry for another 2-3 minutes until everything is heated through.</li>
+          <li>Garnish with sliced green onions if desired. Serve hot and enjoy your homemade Chicken Chow Mein!</li>
+          </ol>
+      </div>
+    </div>
+    <div class="recipe-card" id="Chinese Crepes (Jian Bing/煎饼)">
+      <img src="Images used/Chinese Recipes/Jian Bing, Chinese crepes (煎饼).jpg" alt="Chinese Crepes (Jian Bing/煎饼)" class="recipe-image">
+      <h2 class="recipe-title">Chinese Crepes (Jian Bing/煎饼) </h2>
+      <p>A popular Chinese street food, Jian Bing are savory crepes filled with egg, scallions, cilantro, and crispy wonton wrappers, often drizzled with hoisin and chili sauce.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
+      </button>
+      <div class="dropdown-content">
+        <h3 class="text-title">Ingredients</h3> 
+        <ul>
+          <li>½ cup crispy wonton wrappers</li>
+          <li>1 cup all-purpose flour</li>
+          <li> ½ cup water (adjust for a smooth batter)</li>
+          <li>2 tablespoons of oil</li>
+          <li>2 eggs</li>
+          <li>2 chopped spring onions </li>
+          <li>2 tablespoons hoisin sauce or sweet bean paste</li>
+          <li>2 tablespoons soybean paste</li>
+          <li>1 tablespoons of chilli sauce(or more as it is optinal)</li> 
+          <li> coriander (optional)</li>
+          <li>lettuce leaves(optional)</li> 
+        </ul>
+        <h3 class="text-title">Steps</h3>
+        <ol>
+          <h3 class="text-title">For the batter:</h3>
+          <li>In a bowl, mix flour and water until smooth(like thin pancake batter)</li>
+          <h3 class="text-title">For the crepes:</h3>
+          <li> Heat a non-stick pan with a little oil</li>
+          <li>Pour a ladle of batter, swirl to make a thin crepe</li>
+          <li>Crack an egg over the crepe, spread it evenly</li>
+          <li> Sprinkle chopped spring onions over the egg</li>
+          <li>Once the egg is set, flip the crepe</li>
+          <li>Spread hoisin sauce, soybean paste, and chili sauce on the crepe</li>
+          <li>Add crispy wonton wrappers, coriander, and lettuce if using</li>
+          <li>Fold the crepe into a roll or triangle</li>
+          <li>Serve hot and enjoy your homemade Jian Bing!</li>
+        </ol>
+      </div> 
+      </div>
+    </div>
+  
   </div>
-</div>   
-  <button class="backbtn" onclick="window.location.href='Home.html'"> Back</button>
-</div> 
-<script src="script.js"></script>  
+
+  <button class="backbtn" onclick="window.location.href='Home.html'">Back</button>
+  <script src="script.js"></script>  
 </body>
 </html>
