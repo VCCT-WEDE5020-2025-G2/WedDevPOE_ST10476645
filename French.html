@@ -15,29 +15,54 @@
 
   <!-- Simple image gallery linking to recipes below -->
   <div class="gallery">
-    <a href="Ratatouille"><img src="Images used/French Cuisine/French Cuisine (Ratatouille).jpg" alt="Ratatouille" ></a> 
+    <a href="Ratatouille"><img src="Images used/French Cuisine/Spiral Ratatouille.jpg" alt="Ratatouille">
+    </a> 
 
   </div>
 
   <!-- Recipes -->
 
-  <div id="Ratatouille" class="recipe">
-    <h2>Ratatouille</h2>
-    <p><b>Ingredients:</b> Eggplant, zucchini, bell peppers, tomatoes, onions, garlic, herbs...</p>
-    <p><b>Steps:</b></p>
-    <ol>
-      <li>Chop all vegetables into uniform pieces.</li>
-      <li>Sauté onions and garlic until fragrant.</li>      
-      <li>Add remaining vegetables and cook until tender.</li>
-     <li>Season with herbs, salt, and pepper to taste.</li>
-    </ol>
-  </div>
-  
-
-  <div style="text-align: center;"></div>
-  <button class="button" onclick="window.location.href='Home.html'"> Back</button>
-  </div> 
-
+   <div class="recipes">
+    <div class="recipe-card" id="Friedrice">
+      <img src="Images used/French Cuisine/Spiral Ratatouille.jpg" alt="Ratatouille" class="recipe-image">
+      <h2 class="recipe-title">Ratatouille</h2>
+      <p>A traditional french dish of stewed vegetables, such as tomato, garlic,onions,courgette,aubergines,bell pepers and herbs.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)"> <!--Upon clicking the show recipe button the showrecipe function will be used -->
+        Show Recipe <span class="arrow">&#x25BC;</span> <!-- Span wraps the arrow making it easier to style-->
+      </button>
+      <div class="dropdown-content"> <!-- Makes the steps and ingredients styling easier -->
+        <h3 class="text-title">Ingredients:
+          <ul>
+            <li>1 large eggplants</li>
+            <li>1 large Zucchini</li>
+            <li>1 red bell pepper</li>
+            <li>1 yellow bell pepper</li>
+            <li>1 onion, chopped</li>
+            <li>2 cloves garlic, minced</li>
+            <li>3 large tomatoes, chopped (or 1 can of diced tomatoes)</li>
+            <li>3 tablespoons olive oil</li>
+            <li>1 teaspoon dried thyme</li>
+            <li>1 teaspoon dried oregano</li>
+            <li>Salt and pepper to taste</li>
+            <li>Fresh basil or parsley for garnish (optional)</li>
+          </ul>
+          <h3 class="text-title">Steps:</h3> 
+          <ol>
+            <li>Prepare the Vegetables: Wash and cut the eggplant, zucchini, bell peppers, and onion into 1/2-inch cubes. Mince the garlic and chop the tomatoes if using fresh ones.</li>
+            <li>Cook the Eggplant: Heat 1 tablespoon of olive oil in a large skillet or pot over medium heat. Add the eggplant cubes and cook for about 5-7 minutes until they start to soften. Remove from the skillet and set aside.</li>
+            <li>Cook the Zucchini and Bell Peppers: In the same skillet, add another tablespoon of olive oil. Add the zucchini and bell peppers, cooking for another 5-7 minutes until they begin to soften. Remove and set aside with the eggplant.</li>
+            <li>Sauté the Onions and Garlic: Add the remaining tablespoon of olive oil to the skillet. Add the chopped onion and cook until translucent, about 3-4 minutes. Add the minced garlic and cook for another minute until fragrant.</li>
+            <li>Add Tomatoes and Herbs: Stir in the chopped tomatoes (or canned tomatoes) into the skillet with the onions and garlic. Cook for about 5 minutes until the tomatoes start to break down. Add dried thyme, oregano, salt, and pepper to taste.</li>
+            <li>Combine All Vegetables: Return the cooked eggplant, zucchini, and bell peppers to the skillet. Stir everything together to combine well. Reduce heat to low, cover, and let it simmer for about 20-30 minutes, stirring occasionally, until all vegetables are tender and flavors meld together.</li>
+            <li>Adjust Seasoning: Taste and adjust seasoning with more salt, pepper, or herbs if needed.</li>
+            <li>Serve: Garnish with fresh basil or parsley if desired. Ratatouille can be served hot or at room temperature as a main dish or side dish.</li>
+        </h3>
+        </ol>
+      </div> 
+    </div>
+  </div>  
+ <button class="backbtn" onclick="window.location.href='Home.html'">Back</button>
+  <script src="script.js"></script>  
 
    
 </body>
