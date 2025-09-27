@@ -2,34 +2,47 @@ h1,h2,h3,h4,p{
             text-align: center;
              color: black;
             font-family: sans-serif; 
-        }
+   }
         .Requestbtn , .show-recipe-btn{  
             background-color: #800; 
             border-radius: 10px;
             color:white;
             padding: 10px 20px;
             width: 40%;
-            margin: 10px; 
-        }
+            margin: 10px;  }
         .backbtn{
             background-color: #800; 
             border-radius: 10px;
             color:white; 
             padding: 10px 20px;
-            width: 20%; 
-        }         
+            width: 20%;   }         
  
-    body { font-family: sans-serif; text-align: center; }
-    .gallery img { width: 200px; border-radius: 8px; margin: 10px; }
-    .recipe { text-align: left; max-width: 600px; margin: 20px auto; }  
+ body { font-family: sans-serif; text-align: center; }
+.gallery img { width: 200px; border-radius: 8px; margin: 10px; }
+.recipe { text-align: left; max-width: 600px; margin: 20px auto; }  
 
-    /* Mobile-first breakpoints */
-.breakpoint-visual {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--space-2);
-  margin: var(--space-4) 0;
+.topnav {
+  background-color: #800020;
+  overflow: hidden;
 }
+.topnav a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover{
+  background-color: #960018;
+  color: black;
+}
+.topnav a.active {
+  background-color: #800020;
+  color: white;
+}
+
+/* Recipes Cards styling */
 .card-container {
  display: flex;
  flex-wrap: wrap;
@@ -161,3 +174,60 @@ h1,h2,h3,h4,p{
   z-index: 1;
   box-sizing: border-box;
 } /* Cuisines styling */
+
+
+
+/*Breakpoints for responsiveness*/
+/* Tablet styles */
+@media (max-width: 900px) {
+  .recipes {
+    gap: 20px;
+    max-width: 98vw;
+  }
+  .recipe-card {
+    max-width: 98vw;
+    min-width: 0;
+    width: 98vw;
+  }
+  .recipe-image {
+    height: 140px;
+  }
+  .show-recipe-btn, .Requestbtn {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .backbtn {
+    width: 40%;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 8px;
+  }
+  .recipes {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 100vw;
+  }
+  .recipe-card {
+    max-width: 98vw;
+    min-width: 0;
+    width: 98vw;
+    padding: 0 0 16px 0;
+  }
+  .recipe-image {
+    height: 100px;
+  }
+  .show-recipe-btn, .Requestbtn {
+    width: 95%;
+    font-size: 0.95rem;
+  }
+  .backbtn {
+    width: 80%;
+  }
+}

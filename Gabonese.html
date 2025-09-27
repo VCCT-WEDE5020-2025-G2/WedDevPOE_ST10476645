@@ -8,34 +8,80 @@
 </head>
 <body background="Background9Mightkeep.jpg" >  
 <header>
-        <a href="Home.html"><img src="Images used/Chef@Home logo.jpg" alt="Chef@Home Logo" width="150" height="95"></a>
-    <div style="text-align: center;">
+     <a href="Home.html"><img src="Images used/Chef@Home logo.jpg" alt="Chef@Home Logo" width="150" height="95"></a>
   <h1>Gabonese Cuisine</h1>
   <p>Click a dish to jump to the recipe:</p>
 
   <!-- Simple image gallery linking to recipes below -->
   <div class="gallery">
-    <a href="#Attanga"><img src="Images used/Gabonese Cuisine/Gabonese Cuisine Atangas.jpg" alt="Atangas" ></a>  
+    <a href="#Atanga"><img src="Images used/Gabonese Cuisine/Gabonese Cuisine Atangas.jpg" alt="Atangas" ></a>  
 
   </div>
 
   <!-- Recipes -->
+  <div class="recipes">
+    <div class="recipe-card" id="Atanga">
+      <img src="Images used/Gabonese Cuisine/Gabonese Cuisine Atangas.jpg" alt="Atangas" class="recipe-image">
+      <h2 class="recipe-title">Atanga</h2>
+      <p>The atanga a popular gabonese savory snack.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
+      </button>
+      <div class="dropdown-content">
+        <h3 class="text-title">Ingredients:</h3>
+          <ul>
+            <li>Atangas</li>
+            <li>salt</li>
+            <li>chilli(optional if not to tate)</li>
+            <li>Water for boiling</li>
+          </ul>
+          <ol>
+            <li>Wash your atangas</li>
+            <li>Then boil some water as if making pasta</li>
+            <li>When boiling enough set aside then put the atanga in the hot water</li>
+            <li>While in the water the atanga should start to soften</li>
+            <li>To serve, take the sotten atangas out of the water and season to tate.
+              <li>Enjoy your atangas!</li>
+            </li>
+          </ol>
+        </div>
+    </div>
 
-  <div id="Onigiri" class="recipe">
-    <h2>Onigiri</h2>
-    <p><b>Ingredients:</b> Cooked rice, seaweed, salt, fillings like tuna or pickled plum...</p>
-    <p><b>Steps:</b></p>
-    <ol>
-      <li>Wet hands and sprinkle with salt.</li>
-      <li>Shape rice into triangles, adding filling in the center.</li>
-  </div>
-  
+    <div class="recipe-card" id="Bouillon de poisson (Fish Soup)">
+      <img src="Images used/Gabonese Cuisine/Bouillon de poisson (Fish soup)_cuisine africaine_cuisine gabonaise_gastronomie gabonaise.jpg" alt="Bouillon de poisson (Fish Soup)" class="recipe-image">
+      <h2 class="recipe-title">Bouillon de poisson(Fish Soup)</h2>
+      <p>Bouillon de poisson is a traditional Gabonese fish soup made with fresh fish, vegetables, and spices, often served with plaintain or manioc(cassava) and other types of cassava.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
+      </button>
+      <div class="dropdown-content">
+        <h3 class="text-title">Ingredients:</h3>
+          <ul>
+            <li>Fresh fish (such as tilapia)</li>
+            <li>Onions, chopped</li>
+            <li>Tomatoes, chopped</li>
+            <li>Okra</li>
+            <li>Salt and pepper to taste</li>
+            <li>Fresh herbs (such as bay leaves)</li>
+          </ul>
+          <h3 class="text-title">Steps:</h3>
+          <ol>
+            <li>Clean and cut the fish into pieces. Season with salt and set aside.</li>
+            <li>In a large pot, heat vegetable oil over medium heat. Add chopped onions, sauté until fragrant.</li>
+            <li>Add okra to the vegetables</li> 
+            <li>Serve hot with plaintain, manioc(cassava), or rice.</li>
+          </ol>
+        </div>  
 
-  <div style="text-align: center;"></div>
-  <button class="button" onclick="window.location.href='Home.html'"> Back</button>
-  </div> 
+    </div>
 
 
+
+
+  </div>  <!--End of the recipes container -->
+    
+  <button class="backbtn" onclick="window.location.href='Home.html'">Back</button>
+  <script src="script.js"></script> <!-- Link to external JavaScript file -->
    
 </body>
 </html>

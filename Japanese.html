@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> //
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
    <link rel="stylesheet" href="stylesheet.css">
   <title>Japanese Cuisine</title> 
 </head>
@@ -15,26 +15,133 @@
 
   <!-- Simple image gallery linking to recipes below -->
   <div class="gallery">
-    <a href="#Oningiri"><img src="Images used/Japanese Cuisine/Japanese Cuisine (Onigiri).jpg" alt="Onigiri" ></a> 
+    <a href="#Oningiri">
+      <img src="Images used/Japanese Cuisine/Japanese Cuisine (Onigiri).jpg" alt="Onigiri" >
+    </a> 
+    <a href="#Omurice">
+      <img src="Images used/Japanese Cuisine/Irresistible Omurice_ A Fluffy Japanese Comfort___.jpg" alt="Omurice" >
+    </a>
+    <a href="#KatsuCurry">
+      <img src="Images used/Japanese Cuisine/Japanese Cuisine (Katsu Curry).jpg" alt="Katsu Curry" >
+    </a>
 
-  </div>
-
-  <!-- Recipes -->
-
-  <div id="Onigiri" class="recipe">
-    <h2>Onigiri</h2>
-    <p><b>Ingredients:</b> Cooked rice, seaweed, salt, fillings like tuna or pickled plum...</p>
-    <p><b>Steps:</b></p>
-    <ol>
-      <li>Wet hands and sprinkle with salt.</li>
-      <li>Shape rice into triangles, adding filling in the center.</li>
   </div>
   
+    <div class="recipes">
+      <div class="recipe-card" id="Onigiri">
+        <img src="Images used/Japanese Cuisine/Japanese Cuisine (Onigiri).jpg" alt="Onigiri" class="recipe-image">
+        <h2 class="recipe-title">Onigiri</h2>
+        <p>Onigiri, also known as rice balls, are a popular Japanese snack made from seasoned rice and often filled with ingredients like pickled plum, salmon, or tuna mayo. They are typically shaped into triangles or ovals and wrapped in nori (seaweed) for added flavor and convenience.</p>
+        <button class="show-recipe-btn" onclick="Showrecipe(this)">
+          Show Recipe <span class="arrow">&#x25BC;</span>
+        </button>
+        <div class="dropdown-content">
+          <h3 class="text-title">Ingredients</h3>
+          <ul>
+            <li>Coocked rice</li>
+            <li>Seaweed</li>
+            <li>Tuna as filling(feel free to change if not to your taste)</li>
+          </ul>
+          <h3 class="text-title">Steps:</h3>
+          <ol>
+            <li>To prepare the tuna you mix it wiht mayonnaise(optional)</li>
+            <li>Wet hands and springle with salt</li>
+            <li>Shape rice into triangles, adding the filling in the center</li>
+          </ol>
+        </div>
+      </div>
 
-  <div style="text-align: center;"></div>
-  <button class="button" onclick="window.location.href='Home.html'"> Back</button>
-  </div> 
+      <div class="recipe-card" id="Omurice">
+        <img src="Images used/Japanese Cuisine/Irresistible Omurice_ A Fluffy Japanese Comfort___.jpg" alt="Omurice" class="recipe-image">
+        <h2 class="recipe-title">Omurice</h2>
+        <p>Omurice is a popular Japanese dish that combines an omelette with fried rice, typically flavored with ketchup and filled with ingredients like chicken, vegetables, and sometimes mushrooms.</p>
+        <button class="show-recipe-btn" onclick="Showrecipe(this)">
+          Show recipe <span class="arrow">&#x25BC;</span>
+        </button>
+        <div class="dropdown-content">
+          <h3 class="text-title">Ingredients:</h3>
+          <ul>
+            <li>1 chicken thigh</li>
+            <li>1 small onion</li>
+            <li>1 tablespoon of butter</li>
+            <li>Oil</li>
+            <li>300g of cooked rice</li>
+            <li>salt</li>
+            <li>pepper</li>
+            <li>3 tablespons of ketchup</li>
+            <li>1/4 cup of frozen green peas</li>
+            <li>2 eggs</li> 
+          </ul>
+          <h3 class="text-title">Step:</h3>
+          <ol>
+            <li>Cut the chicken into pieces as well as the onions</li>
+            <li>Melt the buttert and add oil to a frying pan at medium heat.</li>
+            <li>Add chicken and cook for 2-3 minutes. Then add onions until translucent</li>
+            <li>Add coocked rice and cook mixing for 2 minutes. Season rice to taste then add ketchup.</li>
+            <li>Mix rice and ketchup for 1-2minutes then add frozen peas and cook some more</li>
+            <li>Place half of the ketchup rice into a bowl pack lightly, and unmold on a plate.</li>
+            <li>Beat eggs with a oinch of salt together.</li>
+            <li>Heat frying pan with a bit of oil then pour the eggs onto the frying pan</li>
+            <li>Cover the molded rice with the egg to form an oval shape.
+            <li>Enjoy your Omurice!</li>
+            </li>
+          </ol>
+        </div>
+      </div>
 
+      <div class="recipe-card" id="KatsuCurry">
+        <img src="Images used/Japanese Cuisine/Japanese Cuisine (Katsu Curry).jpg" alt="Katsu Curry" class="recipe-image">
+        <h2 class="recipe-title">Katsu Curry</h2>
+        <p>Katsu Curry is a popular Japanese dish that combines crispy breaded and fried cutlets (usually pork or chicken) with a rich and flavorful curry sauce, served over steamed rice. The dish is known for its comforting and hearty flavors, making it a favorite comfort food in Japan.</p>
+        <button class="show-recipe-btn" onclick="Showrecipe(this)">
+          Show Recipe <span class="arrow"></span>&#x25BC;</span>
+        </button>
+        <div class="dropdown-content">
+          <h3 class="text-title">Ingredients:</h3>
+          <ul>
+            <li>225g pork (thinly sliced)</li>
+            <li>1 onion</li>
+            <li>1 carrot</li>
+            <li>2 potatoes</li>
+            <li>1/2 tablespoon of oil</li>
+            <li>4 cups of water</li>
+            <li>1/2 box Japanese curry mix(can be found in asian stores)</li>
+            <li>Cooked rice</li>
+            <li>2 pork loin chops(boneless)</li>
+            <li>1/2 tablespoon of salt</li>
+            <li>1/4 tablespoon of pepper</li>
+            <li>35g flour</li>
+            <li>1 egg</li>
+            <li>40g Panko(bread crumbs)</li>
+            <li>Oil(for deep frying)</li>
+            <li>1/2 tablespoon of ketchup</li>
+            <li>1/2 tablespoon soy sauce</li>
+            <li>1 tablespoon curry powder</li>
+          </ul>
+          <h3 class="text-title">Steps:</h3>
+          <ol>
+            <h3 class="text-title">For the Curry</h3>
+            <li>Cutthe pork into bite size pieces , then cut all of the vegetables into small cubes.</li>
+            <li>Heat oil in a pot add the meat and brown in oil.Cook the onions for 5 minutes then add the carrots and potatoes.</li>
+            <li>Add water to the pot and skim any fat before reducing heat to low.</li>
+            <li>Cover for about 20-30min until the meat goes tender(if using a pressure cooker cook for 15minutes)</li>
+            <h3 class="text-title">For the tonkastu</h3>
+            <li>Make small cuts all over the pork chops with the tip of a knife and pound the meat with a meat tenderizer.</li>
+            <li>Season the meat then coat it with flour,egg and bread crumbs in order.</li>
+            <li>Heat deep frying oil to 350F (170C) and deep fried the coated meat.</li>
+            <li>Fry until golden brown and the meat floats in oil, about 5-8 minutes turning once or twice.</li>
+            <li>Set the meat on a cooling rack for a minute before cutting it into 8 pieces></li>
+            <li>Add the curry mix, ketchup, soy sauce and curry powder to the curry and stir until the sauce thickens.</li>
+            <li>Serve the curry over rice and top with the sliced tonkatsu. Enjoy your Katsu Curry!</li>
+          </ol>
+        </div>
+      </div>
+
+
+    </div> <!--This closes the recipes container-->
+
+ <button class="backbtn" onclick="window.location.href='Home.html'">Back</button>
+  <script src="script.js"></script> 
 
    
 </body>

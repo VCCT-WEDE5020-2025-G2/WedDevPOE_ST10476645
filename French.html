@@ -3,67 +3,141 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="stylesheet.css"> 
+  <link rel="stylesheet" href="stylesheet.css"> 
   <title>French Cuisine</title>
 </head>
-<body background="Background9Mightkeep.jpg" >  
-<header>
-        <a href="Home.html"><img src="Images used/Chef@Home logo.jpg" alt="Chef@Home Logo" width="150" height="95"></a>
+<body background="Background9Mightkeep.jpg">  
+  <header>
+    <a href="Home.html">
+      <img src="Images used/Chef@Home logo.jpg" alt="Chef@Home Logo" width="150" height="95">
+    </a>
     <div style="text-align: center;">
-  <h1>French Cuisine</h1>
-  <p>Click a dish to jump to the recipe:</p>
+      <h1>French Cuisine</h1>
+      <p>Click a dish to jump to the recipe:</p>
+    </div>
+  </header>
 
   <!-- Simple image gallery linking to recipes below -->
   <div class="gallery">
-    <a href="Ratatouille"><img src="Images used/French Cuisine/Spiral Ratatouille.jpg" alt="Ratatouille">
+    <a href="#Ratatouille">
+      <img src="Images used/French Cuisine/Spiral Ratatouille.jpg" alt="Ratatouille">
     </a> 
-
+    <a href="#CroqueMonsieur">
+      <img src="Images used/French Cuisine/French Cuisine (Croque Monsieur).jpg" alt="Croque Monsieur">
+    </a>
+    <a href="#FrenchOnionSoup">
+      <img src="Images used/French Cuisine/Easy French Onion Soup.jpg" alt="French onion soup"> 
+    </a>
   </div>
 
   <!-- Recipes -->
-
-   <div class="recipes">
-    <div class="recipe-card" id="Friedrice">
+  <div class="recipes">
+    <div class="recipe-card" id="Ratatouille"> 
       <img src="Images used/French Cuisine/Spiral Ratatouille.jpg" alt="Ratatouille" class="recipe-image">
       <h2 class="recipe-title">Ratatouille</h2>
-      <p>A traditional french dish of stewed vegetables, such as tomato, garlic,onions,courgette,aubergines,bell pepers and herbs.</p>
-      <button class="show-recipe-btn" onclick="Showrecipe(this)"> <!--Upon clicking the show recipe button the showrecipe function will be used -->
-        Show Recipe <span class="arrow">&#x25BC;</span> <!-- Span wraps the arrow making it easier to style-->
+      <p>A traditional french dish of stewed vegetables, such as tomato, garlic, onions, courgette, aubergines, bell peppers and herbs.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
       </button>
-      <div class="dropdown-content"> <!-- Makes the steps and ingredients styling easier -->
-        <h3 class="text-title">Ingredients:
-          <ul>
-            <li>1 large eggplants</li>
-            <li>1 large Zucchini</li>
-            <li>1 red bell pepper</li>
-            <li>1 yellow bell pepper</li>
-            <li>1 onion, chopped</li>
-            <li>2 cloves garlic, minced</li>
-            <li>3 large tomatoes, chopped (or 1 can of diced tomatoes)</li>
-            <li>3 tablespoons olive oil</li>
-            <li>1 teaspoon dried thyme</li>
-            <li>1 teaspoon dried oregano</li>
-            <li>Salt and pepper to taste</li>
-            <li>Fresh basil or parsley for garnish (optional)</li>
-          </ul>
-          <h3 class="text-title">Steps:</h3> 
-          <ol>
-            <li>Prepare the Vegetables: Wash and cut the eggplant, zucchini, bell peppers, and onion into 1/2-inch cubes. Mince the garlic and chop the tomatoes if using fresh ones.</li>
-            <li>Cook the Eggplant: Heat 1 tablespoon of olive oil in a large skillet or pot over medium heat. Add the eggplant cubes and cook for about 5-7 minutes until they start to soften. Remove from the skillet and set aside.</li>
-            <li>Cook the Zucchini and Bell Peppers: In the same skillet, add another tablespoon of olive oil. Add the zucchini and bell peppers, cooking for another 5-7 minutes until they begin to soften. Remove and set aside with the eggplant.</li>
-            <li>Sauté the Onions and Garlic: Add the remaining tablespoon of olive oil to the skillet. Add the chopped onion and cook until translucent, about 3-4 minutes. Add the minced garlic and cook for another minute until fragrant.</li>
-            <li>Add Tomatoes and Herbs: Stir in the chopped tomatoes (or canned tomatoes) into the skillet with the onions and garlic. Cook for about 5 minutes until the tomatoes start to break down. Add dried thyme, oregano, salt, and pepper to taste.</li>
-            <li>Combine All Vegetables: Return the cooked eggplant, zucchini, and bell peppers to the skillet. Stir everything together to combine well. Reduce heat to low, cover, and let it simmer for about 20-30 minutes, stirring occasionally, until all vegetables are tender and flavors meld together.</li>
-            <li>Adjust Seasoning: Taste and adjust seasoning with more salt, pepper, or herbs if needed.</li>
-            <li>Serve: Garnish with fresh basil or parsley if desired. Ratatouille can be served hot or at room temperature as a main dish or side dish.</li>
-        </h3>
+      <div class="dropdown-content">
+        <h3 class="text-title">Ingredients:</h3>
+        <ul>
+          <li>1 large eggplants</li>
+          <li>1 large Zucchini</li>
+          <li>1 red bell pepper</li>
+          <li>1 yellow bell pepper</li>
+          <li>1 onion, chopped</li>
+          <li>2 cloves garlic, minced</li>
+          <li>3 large tomatoes, chopped (or 1 can of diced tomatoes)</li>
+          <li>3 tablespoons olive oil</li>
+          <li>1 teaspoon dried thyme</li>
+          <li>1 teaspoon dried oregano</li>
+          <li>Salt and pepper to taste</li>
+          <li>Fresh basil or parsley for garnish (optional)</li>
+        </ul>
+        <h3 class="text-title">Steps:</h3> 
+        <ol>
+          <li>Prepare the Vegetables: Wash and cut the eggplant, zucchini, bell peppers, and onion into 1/2-inch cubes. Mince the garlic and chop the tomatoes if using fresh ones. (Note the vegetables need to be cut into slices)</li>
+          <li>Cook the Eggplant: Heat 1 tablespoon of olive oil in a large skillet or pot over medium heat. Add the eggplant cubes and cook for about 5-7 minutes until they start to soften. Remove from the skillet and set aside.</li>
+          <li>Cook the Zucchini and Bell Peppers: In the same skillet, add another tablespoon of olive oil. Add the zucchini and bell peppers, cooking for another 5-7 minutes until they begin to soften. Remove and set aside with the eggplant.</li>
+          <li>Sauté the Onions and Garlic: Add the remaining tablespoon of olive oil to the skillet. Add the chopped onion and cook until translucent, about 3-4 minutes. Add the minced garlic and cook for another minute until fragrant.</li>
+          <li>Add Tomatoes and Herbs: Stir in the chopped tomatoes (or canned tomatoes) into the skillet with the onions and garlic. Cook for about 5 minutes until the tomatoes start to break down. Add dried thyme, oregano, salt, and pepper to taste.</li>
+          <li>Return the cooked eggplant, zucchini, and bell peppers to the skillet. Stir everything together to combine well. Reduce heat to low, cover, and let it simmer for about 20-30 minutes, stirring occasionally, until all vegetables are tender and flavors meld together.</li>
+          <li>To serve: Garnish with fresh basil or parsley if desired. Ratatouille can be served hot or at room temperature as a main dish or side dish.</li>
         </ol>
       </div> 
     </div>
-  </div>  
- <button class="backbtn" onclick="window.location.href='Home.html'">Back</button>
-  <script src="script.js"></script>  
 
-   
+    <div class="recipe-card" id="CroqueMonsieur">
+      <img src="Images used/French Cuisine/French Cuisine (Croque Monsieur).jpg" alt="Croque Monsieur" class="recipe-image">
+      <h2 class="recipe-title">Croque Monsieur</h2>
+      <p>A classic French grilled ham and cheese sandwich topped with creamy béchamel sauce and melted cheese.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
+      </button>
+      <div class="dropdown-content">
+        <h3 class="text-title">Ingredients:</h3> 
+        <ul>
+          <li>2 slices of bread</li>
+          <li>2 slices of ham</li>
+          <li>2 slices of cheese</li>
+          <li>2 tablespoons of melted butter</li>
+          <li>2 tablespoons of flour</li>
+          <li>1 cup of milk</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+        <h3 class="text-title">Steps:</h3> 
+        <ol>
+          <li><strong>For the béchamel:</strong></li>
+          <li>In a saucepan, melt the butter over medium heat. Add the flour and whisk continuously for 1-2 minutes.</li>
+          <li>Gradually add the milk and whisk until the sauce slightly thickens. Add salt and pepper to taste (optionally you can add cheese to the béchamel).</li>
+          <li><strong>For the sandwich:</strong></li>
+          <li>Preheat the oven to 400°F (200°C).</li>  
+          <li>Spread a thin layer of béchamel sauce on one side of each slice of bread.</li>
+          <li>Place a slice of ham and a slice of cheese on one slice of bread, then top with the other slice of bread, béchamel side down.</li>
+          <li>Spread a thin layer of béchamel sauce on top of the sandwich and sprinkle with grated cheese.</li>
+          <li>Place the sandwich on a baking sheet and bake for 10 minutes, or until the cheese is melted and bubbly.</li>
+          <li>Serve hot and enjoy your Croque Monsieur!</li>
+        </ol>
+      </div> 
+    </div>
+
+    <div class="recipe-card" id="FrenchOnionSoup">
+      <img src="Images used/French Cuisine/Easy French Onion Soup.jpg" alt="French onion soup" class="recipe-image">
+      <h2 class="recipe-title">French Onion Soup</h2>
+      <p>A classic French soup made with caramelized onions, beef broth, and topped with melted cheese and toasted bread.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
+      </button>
+      <div class="dropdown-content"> 
+        <h3 class="text-title">Ingredients:</h3>
+        <ul>
+          <li>2 large onions</li>
+          <li>2 cups beef stock</li>
+          <li>1 cup white wine (red wine works too)</li>
+          <li>Olive oil</li>
+          <li>Butter</li>
+          <li>Salt, pepper and garlic to taste</li>
+          <li>Baguette slices</li>
+          <li>Grated swiss or Gruyere cheese</li>
+          <li>Thyme and bay leaves (optional)</li>
+        </ul>
+        <h3 class="text-title">Steps:</h3>
+        <ol>
+          <li>Start by caramelising your onions.</li>
+          <li>Once your onions have softened, season them to taste with salt and pepper and add a tablespoon of butter in the pan to enhance the flavour.</li>
+          <li>Once the onions have browned, add your garlic and cook for some more.</li>
+          <li>Now add your wine to the pan.</li>
+          <li>Once your wine has been added, pour the beef stock and some bay leaves and thyme and let it simmer for 25 minutes.</li>
+          <li>While your soup is simmering, toast your baguette slices with your grated cheese on top.</li>
+          <li>To serve, plate your soup in a bowl and place the cheesy slices of bread on top. Now enjoy your French onion soup!</li>
+        </ol>
+      </div> 
+    </div>
+  </div> <!-- The closes the recipes container -->
+
+  <button class="backbtn" onclick="window.location.href='Home.html'">Back</button>
+  <script src="script.js"></script>  
 </body>
 </html>
+
