@@ -15,27 +15,63 @@
 
   <!-- Simple image gallery linking to recipes below -->
   <div class="gallery">
-    <a href="#Jolof Rice"><img src="Images used/Nigerian Cuisine/Nigerian Cuisine (Jolof Rice).jpg" alt="Jolof Rice" ></a> 
-
+    <a href="#Jollof Rice">
+      <img src="Images used/Nigerian Cuisine/Nigerian Cuisine (Jolof Rice).jpg" alt="Jollof Rice" >
+    </a> 
   </div>
 
-  <!-- Recipes -->
+  <div class="recipes">
+    <div class="recipe-card" id="Jollofrice">
+      <img src="Images used/Nigerian Cuisine/Nigerian Cuisine (Jolof Rice).jpg" alt="Jollof rice" class="recipe-image">
+      <h2 class="recipe-title">Jollof Rice</h2>
+      <p>Jollof Rice is a rich and incredibly tasty west african one pot meal.</p>
+      <button class="show-recipe-btn" onclick="Showrecipe(this)">
+        Show Recipe <span class="arrow">&#x25BC;</span>
+      </button>
+      <div class="dropdown-content">
+        <h3 class="text-title">Ingredients:</h3>
+        <ul>
+          <li>3 red bell pepper</li>
+          <li>3 tomatoes</li>
+          <li>1 onion</li>
+          <li>2 scotch bonnet/habanero(use less if you don't like it spicy)</li>
+          <li>1 cup of water</li>
+          <li>55g oil</li>
+          <li>1 onion sliced</li>
+          <li>5 tablespoons of tomato paste</li>
+          <li>4 cloves of garlic</li>
+          <li>1 tablespoon of grated ginger</li>
+          <li>2 bay leaves</li>
+          <li>1 tablespoon of thyme</li>
+          <li>1 tablespoon of curry powder</li>
+          <li>1 tablespoon of salt (or add to taste)</li>
+          <li>White pepper or black pepper(or add to taste)</li>
+          <li>1 tablespoon of chicken bouillon powde or 3 cubesr</li>
+          <li>370g long grain rice(washed)</li>
+          <li>473.18g chicke stock</li>
+          <li>1 large tomato (sliced)</li>
+          <li>1 large onion (sliced)</li>
+          <li>2 teaspoons butter (optional)</li>
+        </ul>
+        <h3 class="text-title">Steps:</h3>
+        <ol>
+          <li>First, make the tomato-based sauce by blending together the red bell peppers (pimento), tomatoes, onion, and scotch bonnet</li>
+          <li>Heat the cooking oil in a large pan over medium heat, then add the diced onions and let them cook for about 3 minutes or until they are soft.</li>
+          <li>Next, add the tomato paste and fry for about 5 minutes. Then stir in garlic, ginger, and bay leaves—leave to cook for 2 more minutes</li>
+          <li>Add the blended sauce and allow the pepper to cook until the water is reduced and the sauce become thick —about 10 to 15 minutes</li>
+          <li>Season with thyme, curry powder, bouillon cubes, salt, and pepper to taste. Cook for another 2 to 5 minutes</li>
+          <li>Add the rinsed rice to the sauce and stir until it is well coated with the sauce. Then add the chicken stock, stir briefly, cover with a tight-fitting lid, and bring to a quick boil over high heat</li>
+          <li>Once it begins to boil—after about 3 to 5 minutes, reduce the heat immediately to low and steam until the rice is done—about 30 minutes</li>
+          <li>Add the butter, sliced tomato, and onions, stir together briefly and turn off the heat. Cover it immediately so that the heat remaining in the rice can steam up the vegetables a little</li>
+          <li>Serve with sweet fried plantains and roasted chicken</li>
+          <li>Enjoy your jollf rice!</li>
+        </ol>
+      </div>
+    </div>
 
-  <div id="Jolof Rice" class="recipe">
-    <h2>Jolof Rice</h2>
-    <p><b>Ingredients:</b> Cooked rice, tomatoes, onions, bell peppers, spices...</p>
-    <p><b>Steps:</b></p>
-    <ol>
-        <li>Blend tomatoes, onions, and bell peppers into a smooth sauce.</li>
-        <li>Sauté the sauce with spices until thickened.</li>
-        <li>Mix in cooked rice and cook until heated through.</li>
-    </ol>
-  </div>
-  
-
-  <div style="text-align: center;"></div>
-  <button class="button" onclick="window.location.href='Home.html'"> Back</button>
-  </div> 
+  </div> <!--End of the recipes container-->
+  <button class="backbtn" onclick="window.location.href='Cuisines.html'">Back</button>
+  <script src="script.js"></script>
 
 
    
