@@ -125,8 +125,8 @@ h1,h2,h3,h4,p{
 .card:hover .card-button {
  transform: translate(-50%, 50%);
  opacity: 1;
-} /* From Uiverse.io by alexruix */
-   /*Homepage styling*/
+} /* From Uiverse.io by alexruix */ 
+
 
 .gallery { 
   display: grid; 
