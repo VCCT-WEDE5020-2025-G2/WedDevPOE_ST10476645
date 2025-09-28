@@ -84,27 +84,27 @@ Chinese cuisine
 Chhavy Phchang. “How to Make Chinese Red Braised Pork Belly.” Pinterest, 7 Jan. 2025, www.pinterest.com/i/30giLUhBf/ . Accessed 28 Sept. 2025.
 “Pinterest.” Pinterest, 2025, www.pinterest.com/i/7yJPrI6V9/ . Accessed 28 Sept. 2025.
 
-French cuisine
+### French cuisine
 Easy French Onion Soup – the Comfort of Cooking. 31 Oct. 2016, www.thecomfortofcooking.com/2016/10/easy-french-onion-soup.html
 Gimpl, Mike. “Easy French Onion Soup.” Pinterest, 29 Oct. 2016, www.pinterest.com/i/2Vm6myr5F/ . Accessed 28 Sept. 2025.
 MacQueen, Lori. “Spiral Ratatouille.” Pinterest, 3 Sept. 2022, www.pinterest.com/i/6iTnpCslF/ . Accessed 28 Sept. 2025.
 “Pinterest.” Pinterest, 2022, www.pinterest.com/i/1hMdbsXdi/ . Accessed 28 Sept. 2025.
 
-Nigerian cuisine 
+### Nigerian cuisine 
 Lamkin, Gabby. “Nigerian Jollof Rice.” Pinterest, 2 June 2025, www.pinterest.com/i/73MGNAfNa/ . Accessed 28 Sept. 2025.
 Osinkolu, Lola. “Nigerian Jollof Rice | Chef Lola’s Kitchen (Video).” Chef Lola’s Kitchen, 27 Dec. 2022, cheflolaskitchen.com/jollof-rice/#recipe.
 
 
-Gabonese cuisine 
+### Gabonese cuisine 
 Fleur. “Bouillon de Poisson (Fish Soup).” Pinterest, June 2020, www.pinterest.com/i/2OqZsvKRR/ . Accessed 28 Sept. 2025.
 ---. “Les Atangas /Cuisine Gabonaise/Gabonese Food/Cuisine Africaine/Cuisine Gabonaise/African Food.” Pinterest, 22 Feb. 2025, www.pinterest.com/i/21Z3OncMu/ . Accessed 28 Sept. 2025.
 
-Japanese cuisine 
+### Japanese cuisine 
 Mom, Hip Foodie. “Onigiri Japanese Rice Balls.” Pinterest, 19 July 2021, www.pinterest.com/i/23UZgtwSl/ . Accessed 28 Sept. 2025.
 “Pinterest.” Pinterest, 2019, www.pinterest.com/i/45rMBcpR5/ . Accessed 28 Sept. 2025.
 rana, deena. “Japanese Katsu Curry.” Pinterest, 14 Apr. 2024, www.pinterest.com/i/5WVRiqW6x/ . Accessed 28 Sept. 2025.
 
-AI Disclosure form 
+### AI Disclosure form 
 
 Sections in which generative AI was used and the purpose behind the use:  Recipes  
 Name of tool: ChatGPT 
