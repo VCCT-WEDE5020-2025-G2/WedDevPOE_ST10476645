@@ -4,7 +4,9 @@
 # Project
 Chef@Home is a recipe book that contains mutltiple cuisines type and recipes a user might be intersted in. The user can choose the cuisone type he desires and look through the recipes Chef@Home proposes. The user can also request a specific recipe or cuisine.
 # Content
+
 ## Part 1 sreenshots
+
 ### Homepage
 <img width="2714" height="1419" alt="Website homepage part1" src="https://github.com/user-attachments/assets/733656b5-9ec4-4e20-a02c-0a037f0b0bb4" />
 
@@ -36,17 +38,43 @@ Chef@Home is a recipe book that contains mutltiple cuisines type and recipes a u
 
 ## Part 2 screenshots
 
+### Homepage
+<img width="2729" height="1495" alt="Website Part 2 Homepage" src="https://github.com/user-attachments/assets/2942ab60-a918-4d51-a667-2d1ec1f5b7d4" />
 
+### Cuisines page
+<img width="2747" height="1518" alt="Website Part 2 Cuisines page" src="https://github.com/user-attachments/assets/7181fd28-bb11-495b-ae93-2e1a17eca6b8" />
 
+### Chinese cuisine page
+<img width="2721" height="1143" alt="Website Part 2 Chinese Cuisine recipes screen" src="https://github.com/user-attachments/assets/d7af7b06-0d7c-465f-ae9f-ee2a723b1f80" />
 
+<img width="2725" height="1499" alt="Website Part 2 Chinese Recipes cards" src="https://github.com/user-attachments/assets/1384bb54-57d1-4374-a973-6fb612898b7e" />
 
+<img width="2745" height="1495" alt="Website Part 2 Chinese cuisine recipes cards" src="https://github.com/user-attachments/assets/1dfbd041-0a00-474e-902c-b135577ea0c9" />
 
+### Japanese cuisine page 
+<img width="2691" height="1489" alt="Website Part 2 Japanese Cuisine recipes screen" src="https://github.com/user-attachments/assets/4e7f26d0-34a0-4d25-8f25-155b2a3e701e" />
 
+<img width="2732" height="1495" alt="Website Part 2 Japanese Cuisine recipes" src="https://github.com/user-attachments/assets/1a7bf4af-d3db-4023-a35c-a308ce23cc96" />
 
- 
+### French cuisine page 
+<img width="2707" height="1509" alt="Website Part 2 French Cuisine recipes screen" src="https://github.com/user-attachments/assets/42343fad-3588-4914-a99c-d065bf9a45d3" />
+
+<img width="2676" height="1502" alt="Screenshot 2025-09-28 202913" src="https://github.com/user-attachments/assets/85848b9a-74ba-441b-80ee-202a210af3ff" />
+
+### Gabonese cuisine
+<img width="2698" height="1511" alt="Website Part 2 Gabonese recipes" src="https://github.com/user-attachments/assets/cdcd4a17-7482-459d-9027-c916fa60cc8f" />
+
+<img width="2698" height="1248" alt="Website Part 2 gabonese cuisine cards" src="https://github.com/user-attachments/assets/22f90135-bd0b-4c99-a03a-52fd1d1223f1" />
+
+### Nigerian cuisine
+<img width="2685" height="1501" alt="Website Part 2 Nigerian cuisine recipe" src="https://github.com/user-attachments/assets/e79c3203-7b78-4c6a-9228-3f0f9d6d6f05" />
+
+<img width="2667" height="1499" alt="Website Part 2 Nigerian cuisine cards" src="https://github.com/user-attachments/assets/a8af5055-9d59-45d7-aa8a-5691e9bfb5f6" />
+
+### Contat us page 
+<img width="2747" height="1517" alt="Screenshot 2025-09-28 204632" src="https://github.com/user-attachments/assets/addb052f-8e86-4033-8d7c-ad11adf532d4" />
 
 ## Installation
-
 - Use this github link https://github.com/st10476645/WedDevPOE.git
 - Download the zip file then extract it from your downloaded files
 - Test the website on your brower of choice
