@@ -220,6 +220,21 @@ h1,h2,h3,h4,p{
   max-width: 500px;
   text-align: center;
 }
+.footer-content {
+  background-color: #800020; 
+    color: black;
+    padding: 20px 0; 
+    position: fixed;
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    z-index: 100; /* Ensures footer stays above other content */
+} 
 
 
 /*Breakpoints for responsiveness*/
@@ -243,6 +258,9 @@ h1,h2,h3,h4,p{
   }
   .backbtn {
     width: 40%;
+  }
+  .footer-content{
+    position: relative;
   }
 }
 
@@ -275,4 +293,7 @@ h1,h2,h3,h4,p{
   .backbtn {
     width: 80%;
   }
+   .footer-content{
+    position: relative;
+ }
 }
