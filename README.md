@@ -74,7 +74,51 @@ Chef@Home is a recipe book that contains mutltiple cuisines type and recipes a u
 ### Contat us page 
 <img width="2747" height="1517" alt="Screenshot 2025-09-28 204632" src="https://github.com/user-attachments/assets/addb052f-8e86-4033-8d7c-ad11adf532d4" />
 
+
+# References
+W3Schools. “W3Schools How to - Code Snippets for HTML, CSS and JavaScript.” Www.w3schools.com , www.w3schools.com/howto/default.asp .
+“Open-Source UI Elements - Made with CSS and HTML.” Uiverse.io, uiverse.io/.
+Chinese cuisine 
+“Pinterest.” Pinterest, 2021, www.pinterest.com/i/5ZRXIqWuF/ . Accessed 28 Sept. 2025.
+760) 670-6792. “Chicken Chow Mein.” Pinterest, Nov. 2024, www.pinterest.com/i/7HbKm4VTI/ . Accessed 28 Sept. 2025.
+Chhavy Phchang. “How to Make Chinese Red Braised Pork Belly.” Pinterest, 7 Jan. 2025, www.pinterest.com/i/30giLUhBf/ . Accessed 28 Sept. 2025.
+“Pinterest.” Pinterest, 2025, www.pinterest.com/i/7yJPrI6V9/ . Accessed 28 Sept. 2025.
+
+French cuisine
+Easy French Onion Soup – the Comfort of Cooking. 31 Oct. 2016, www.thecomfortofcooking.com/2016/10/easy-french-onion-soup.html
+Gimpl, Mike. “Easy French Onion Soup.” Pinterest, 29 Oct. 2016, www.pinterest.com/i/2Vm6myr5F/ . Accessed 28 Sept. 2025.
+MacQueen, Lori. “Spiral Ratatouille.” Pinterest, 3 Sept. 2022, www.pinterest.com/i/6iTnpCslF/ . Accessed 28 Sept. 2025.
+“Pinterest.” Pinterest, 2022, www.pinterest.com/i/1hMdbsXdi/ . Accessed 28 Sept. 2025.
+
+Nigerian cuisine 
+Lamkin, Gabby. “Nigerian Jollof Rice.” Pinterest, 2 June 2025, www.pinterest.com/i/73MGNAfNa/ . Accessed 28 Sept. 2025.
+Osinkolu, Lola. “Nigerian Jollof Rice | Chef Lola’s Kitchen (Video).” Chef Lola’s Kitchen, 27 Dec. 2022, cheflolaskitchen.com/jollof-rice/#recipe.
+
+
+Gabonese cuisine 
+Fleur. “Bouillon de Poisson (Fish Soup).” Pinterest, June 2020, www.pinterest.com/i/2OqZsvKRR/ . Accessed 28 Sept. 2025.
+---. “Les Atangas /Cuisine Gabonaise/Gabonese Food/Cuisine Africaine/Cuisine Gabonaise/African Food.” Pinterest, 22 Feb. 2025, www.pinterest.com/i/21Z3OncMu/ . Accessed 28 Sept. 2025.
+
+Japanese cuisine 
+Mom, Hip Foodie. “Onigiri Japanese Rice Balls.” Pinterest, 19 July 2021, www.pinterest.com/i/23UZgtwSl/ . Accessed 28 Sept. 2025.
+“Pinterest.” Pinterest, 2019, www.pinterest.com/i/45rMBcpR5/ . Accessed 28 Sept. 2025.
+rana, deena. “Japanese Katsu Curry.” Pinterest, 14 Apr. 2024, www.pinterest.com/i/5WVRiqW6x/ . Accessed 28 Sept. 2025.
+
+AI Disclosure form 
+
+Sections in which generative AI was used and the purpose behind the use:  Recipes  
+Name of tool: ChatGPT 
+Link to the chat: https://chatgpt.com/share/68d9963a-5d44-8003-9061-0a24ed2563cf 
+
+
+
+
+
+
+
+
+
 ## Installation
-- Use this github link https://github.com/st10476645/WedDevPOE.git
+- Use this github link https://github.com/VCCT-WEDE5020-2025-G2/WedDevPOE_ST10476645.git
 - Download the zip file then extract it from your downloaded files
 - Test the website on your brower of choice
