@@ -1,8 +1,14 @@
 # ST10476645
 # WEDEV5020 
 
+# Project
+Chef@Home is a recipe book that contains mutltiple cuisines type and recipes a user might be intersted in. The user can choose the cuisone type he desires and look through the recipes Chef@Home proposes. The user can also request a specific recipe or cuisine.
 # Content
-[ST10476645 WebDev Content.docx](https://github.com/user-attachments/files/22014377/ST10476645.WebDev.Content.docx)
+## Part 1 sreenshots
+<img width="2714" height="1419" alt="Website homepage part1" src="https://github.com/user-attachments/assets/733656b5-9ec4-4e20-a02c-0a037f0b0bb4" />
+
+
+
 
 
  
