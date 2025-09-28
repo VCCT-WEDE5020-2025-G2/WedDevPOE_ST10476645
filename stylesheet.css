@@ -62,7 +62,7 @@ h1,h2,h3,h4,p{
   color: white;
 }
 
-/* Recipes Cards styling */
+/* Start of Recipes and cuisines Cards styling */
 .card-container {
  display: flex;
  flex-wrap: wrap;
@@ -107,7 +107,7 @@ h1,h2,h3,h4,p{
 }
 
 .text-body {
- color: rgb(134, 134, 134);
+ color: black;
 }
 
 /*Text*/
@@ -193,8 +193,33 @@ h1,h2,h3,h4,p{
   position: relative; /* Prevents overlay issues */
   z-index: 1;
   box-sizing: border-box;
-} /* Cuisines styling */
+} /* End of Cuisines and recipes styling */
 
+.contact-infos{
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items in the container vertically */
+  flex-direction: column;
+  padding: 20px;
+  background-color: #800020;
+  margin-bottom: 5em;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.3);
+}
+.infos-text{
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.infos-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.3);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
 
 
 /*Breakpoints for responsiveness*/
