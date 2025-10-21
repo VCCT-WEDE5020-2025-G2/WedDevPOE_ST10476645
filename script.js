@@ -8,4 +8,4 @@ function Showrecipe(button) { //Function used by the dropdown buttons in the dif
         content.style.display = "block"; // If the content is hidden the function shows it
         button.querySelector('.arrow').innerHTML = "&#x25B2;";  
     } 
-}
+} 
