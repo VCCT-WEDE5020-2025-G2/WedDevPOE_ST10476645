@@ -141,9 +141,32 @@
       </div>
 
 
-    </div> <!--This closes the recipes container-->
+    </div> <!--This closes the recipes container--> 
+    <button onclick="topFunction()" id="BacktoTop" title="Go to top">Top</button> 
 
- <button class="backbtn" onclick="window.location.href='Cuisines.html'">Back</button>
+
+    <script>
+     // Get the button
+    let BacktoTop= document.getElementById("BacktoTop");
+
+     // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+     function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+       } else {
+        mybutton.style.display = "none";}
+      }
+       // When the user clicks on the button, scroll to the top of the document
+       function topFunction() { 
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+       }
+       </script> 
+
+
+
   <script src="script.js"></script>
    <footer>
         <div class="footer-content">

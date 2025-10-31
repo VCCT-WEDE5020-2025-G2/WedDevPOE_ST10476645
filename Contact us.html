@@ -21,23 +21,59 @@
     <h3>We would love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out to us through any of the our following socials:</h3>
     <section class="contact-infos"> 
         <div class="infos-container">
-            <p class="infos-text"><strong>Email:</strong> <a href="mailto:Chef@Home@gmail.com">Chef@Home@gmail.com</a></p>
-            <p class="infos-text"><strong>Phone:</strong> <a href="tel:076 819 8925">076 819 8925</a></p>
+            <p class="infos-text"><strong>Email:</strong><a href="mailto:Chef@Home@gmail.com">Chef@Home@gmail.com</a></p>
+            <p class="infos-text"><strong>Phone:</strong><a href="tel:076 819 8925">076 819 8925</a></p>
             <p class="infos-text"><strong>Instagram:</strong><a href="https://www.instagram.com/chef_at_home/"> @chef_at_home</a></p>
             <p class="infos-text"><strong>Tiktok:</strong><a href="https://www.tiktok.com/@chef_at_home"> @chef_at_home</a></p> 
+            
         </div>
     </section>
     <section>
         <div class="User-form">
-            <form id="ContactForm">
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text">
+            <form id="ContactForm"> 
+                <label for="name">Your Name</label>
+                <input id="name" name="name" type="text" required>
 
-                
+                <label for="email">Your email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="request">Your request</label>
+                <textarea id="request" name="request" required></textarea>
+
+                <button type="button" onclick="sendEmail('gmail')">Send via Email</button>
+                <button type="button" onclick="sendEmail('outlook')">Send via Outlook</button>
             </form>
         </div>
     </section>
     <br>
+    <script>
+        function sendEmail(service){ 
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const request = document.getElementById('request').value.trim();
+
+            const subject = encodeURIComponent(`Message from ${name}`);
+            const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${request}`);
+
+            const companyEmail = "Chef@Home@gmail.com"; 
+
+            if (!name || !email || !request){
+                alert("Please fill in all fields");
+                return;
+            }
+
+            let url = "";
+
+            if (service === "gmail"){ url =`https://mail.google.com/mail/?view=cm&fs=1&to=${companyEmail}&su=${subject}&body=${body}`;}
+
+            else if (service === "outlook"){ url = `https://outlook.office.com/mail/deeplink/compose?to=${companyEmail}&subject=${subject}&body=${body}`;}
+            
+
+            window.open(url, "blank");
+            
+            
+        }
+    </script>
 
 
     <footer>
