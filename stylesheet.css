@@ -65,7 +65,7 @@ h1,h2,h3,h4,p{
 .topnav a:hover{
   background-color: #960018;
   color: black;
-  hover: pointer;
+  hover: pointer; 
 }
 .topnav a.active {
   background-color: #800020;
