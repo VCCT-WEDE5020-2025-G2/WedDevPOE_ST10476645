@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
      <!-- Link to external CSS stylesheet -->
-    <title>Contact us</title>
+    <title>Contact us | Chef@Home</title> 
 </head>
 <body> 
 
@@ -29,8 +29,9 @@
         </div>
     </section>
     <section>
-        <div class="User-form">
-            <form id="ContactForm"> 
+        <h3>Any ideas for some new recipes? Email us!</h3>
+        <div class="contact-infos">
+            <form class="infos-container"> 
                 <label for="name">Your Name</label>
                 <input id="name" name="name" type="text" required>
 
@@ -40,10 +41,23 @@
                 <label for="request">Your request</label>
                 <textarea id="request" name="request" required></textarea>
 
-                <button type="button" onclick="sendEmail('gmail')">Send via Email</button>
-                <button type="button" onclick="sendEmail('outlook')">Send via Outlook</button>
+                <div class="email-buttons">  
+
+                 <button type="button" onclick="sendEmail('gmail')">Send via Email</button>
+                 <button type="button" onclick="sendEmail('outlook')">Send via Outlook</button>
+
+                </div>
+
+               
             </form>
         </div>
+    </section>
+    <section>
+        <h3>Find our office here:</h3>   
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.574131061926!2d18.48107507555715!3d-33.977783973185154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc432ef40f7c2d%3A0x164de07d5709ea74!2s2%20Wyndover%20Rd%2C%20Claremont%2C%20Cape%20Town%2C%207708!5e0!3m2!1sen!2sza!4v1742220171248!5m2!1sen!2sza" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
     </section>
     <br>
     <script>

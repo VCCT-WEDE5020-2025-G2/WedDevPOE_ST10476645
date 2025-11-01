@@ -64,8 +64,7 @@ h1,h2,h3,h4,p{
 }
 .topnav a:hover{
   background-color: #960018;
-  color: black;
-  hover: pointer; 
+  color: black; 
 }
 .topnav a.active {
   background-color: #800020;
@@ -205,6 +204,8 @@ h1,h2,h3,h4,p{
   box-sizing: border-box;
 } /* End of Cuisines and recipes styling */
 
+  /*Styling for the contact us page */ 
+
 .contact-infos{
   display: flex;
   justify-content: center;
@@ -222,36 +223,53 @@ h1,h2,h3,h4,p{
     margin-bottom: 1em;
 }
 .infos-container {
-  background-color: white;
-  padding-top: 10;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.3);
-  width: 100%;
-  max-width: 500px;
-  text-align: center;
-}
-
-.User-form{
-   display: flex;
-  justify-content: center;
-  align-items: center; /* Center items in the container vertically */
-  flex-direction: column;
-  padding: 20px;
-  background-color: #800020;
-  margin-bottom: 5em;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.3);
-}
-
-.ContactForm{
  background-color: white;
-  padding-top: 10;
+  padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(255, 192, 203, 0.3);
   width: 100%;
   max-width: 500px;
-  text-align: center;
 }
+
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: #4a3b2c;
+} 
+
+.email-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.email-buttons button{ 
+  background-color: #7a0000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.email-buttons button:hover {
+  background-color: #960018;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    margin: auto;
+}
+
+  /* About us page sections styling*/
 
 #BacktoTop {
   display: none;
