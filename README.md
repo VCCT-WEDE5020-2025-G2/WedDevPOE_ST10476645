@@ -152,6 +152,9 @@ Osinkolu, Lola. “Nigerian Jollof Rice | Chef Lola’s Kitchen (Video).” Chef
 Fleur. “Bouillon de Poisson (Fish Soup).” Pinterest, June 2020, www.pinterest.com/i/2OqZsvKRR/ . Accessed 28 Sept. 2025.
 ---. “Les Atangas /Cuisine Gabonaise/Gabonese Food/Cuisine Africaine/Cuisine Gabonaise/African Food.” Pinterest, 22 Feb. 2025, www.pinterest.com/i/21Z3OncMu/ . Accessed 28 Sept. 2025.
 
+Fleur. “Chicken Nyembwe/Cuisine Africaine/Cuisine Gabonaise/Gastronomie Gabonaise.” Pinterest, June 2020, pin.it/2Ciqa4KGx . Accessed 2 Nov. 2025.
+
+
 ### Japanese cuisine 
 Mom, Hip Foodie. “Onigiri Japanese Rice Balls.” Pinterest, 19 July 2021, www.pinterest.com/i/23UZgtwSl/ . Accessed 28 Sept. 2025.
 “Pinterest.” Pinterest, 2019, www.pinterest.com/i/45rMBcpR5/ . Accessed 28 Sept. 2025.
