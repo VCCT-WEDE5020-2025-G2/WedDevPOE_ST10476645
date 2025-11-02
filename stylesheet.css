@@ -13,7 +13,7 @@ main {
 
 
 
-h1,h2,h3,h4,p{
+h1,h2,h3,h4,p,li{
             text-align: center;
              color: black;
             font-family: sans-serif; 
@@ -237,7 +237,17 @@ label {
   margin-bottom: 0.3rem;
   font-weight: bold;
   color: #4a3b2c;
+  
 } 
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
 
 .email-buttons {
   display: flex;
@@ -327,9 +337,49 @@ iframe{
     width: 80%;
     font-size: 1rem;
   }
-  .backbtn {
-    width: 40%;
-  }
+ .contact-infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+section {
+  padding: 1rem;
+} 
+
+/* Make sure .infos-container doesn't overflow */
+.infos-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.email-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.email-buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
   .footer-content{
     position: relative;
   }
@@ -361,8 +411,21 @@ iframe{
     width: 95%;
     font-size: 0.95rem;
   }
-  .backbtn {
-    width: 80%;
+   .infos-container {
+    padding: 1rem;
+  }
+
+  input, textarea {
+    font-size: 0.95rem;
+  }
+
+  .email-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .email-buttons button {
+    width: 100%;
   }
    .footer-content{
     position: relative;
