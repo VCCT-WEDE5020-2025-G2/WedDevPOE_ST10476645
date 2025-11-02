@@ -74,6 +74,59 @@ Chef@Home is a recipe book that contains mutltiple cuisines type and recipes a u
 ### Contat us page 
 <img width="2747" height="1517" alt="Screenshot 2025-09-28 204632" src="https://github.com/user-attachments/assets/addb052f-8e86-4033-8d7c-ad11adf532d4" />
 
+## Part 3 screenshots
+
+
+### Homepage
+
+<img width="2749" height="1521" alt="image" src="https://github.com/user-attachments/assets/51685589-bcbc-44ae-9c1b-9d1fc2d7f5af" />
+
+
+### Cuisines page
+
+<img width="2749" height="1517" alt="image" src="https://github.com/user-attachments/assets/0c2ff5d3-8699-4ac6-9230-d761732d4d62" />
+
+
+### Chinese cuisine page
+
+<img width="2752" height="1510" alt="image" src="https://github.com/user-attachments/assets/b221cd1b-d19c-439b-90d8-f1c959321f35" />
+
+<img width="2753" height="1513" alt="image" src="https://github.com/user-attachments/assets/bfdddf38-533e-47f5-94fa-51ad661cc574" />
+
+<img width="2748" height="1508" alt="image" src="https://github.com/user-attachments/assets/17a54857-7e9f-4dab-8b44-1bdde6e804b8" />
+
+### Japanese cuisine page
+
+<img width="2749" height="1522" alt="image" src="https://github.com/user-attachments/assets/ae559f50-16b7-4334-b5f2-073efa0eacb9" />
+
+<img width="2752" height="1521" alt="image" src="https://github.com/user-attachments/assets/ef8f4111-be26-4432-b33f-e1e0df2bb4df" />
+
+<img width="2750" height="1508" alt="image" src="https://github.com/user-attachments/assets/887ab25f-0199-4568-aa2a-f48a557aaa02" />
+
+### French cuisine page
+
+<img width="2748" height="1524" alt="image" src="https://github.com/user-attachments/assets/8f3c3e2a-3b08-4649-b186-b45b800f9e38" />
+
+<img width="2744" height="1513" alt="image" src="https://github.com/user-attachments/assets/1b78be82-0bbe-4649-a7f1-4edfb14d5a1d" />
+
+<img width="2744" height="1516" alt="image" src="https://github.com/user-attachments/assets/c2bed7d6-0485-4307-a02a-67ce39919536" />
+
+### Gabonese cuisine
+
+<img width="2749" height="1516" alt="image" src="https://github.com/user-attachments/assets/aec897c7-3458-4b3e-b23a-3e5f4f13dca5" />
+
+<img width="2737" height="1521" alt="image" src="https://github.com/user-attachments/assets/1b549dfc-dab0-4cc9-87d1-2c0524c99795" />
+
+<img width="2754" height="1515" alt="image" src="https://github.com/user-attachments/assets/6d126417-2ef0-4c56-8a25-38e15f5990af" />
+
+### Nigerian cuisine 
+
+<img width="2738" height="1517" alt="image" src="https://github.com/user-attachments/assets/d52def64-fe81-4ca6-994b-a99b0a465a9b" />
+
+<img width="2757" height="1521" alt="image" src="https://github.com/user-attachments/assets/52455bae-516e-41ae-8c28-e0a2d4f4dec5" />
+
+
+
 
 # References
 W3Schools. “W3Schools How to - Code Snippets for HTML, CSS and JavaScript.” Www.w3schools.com , www.w3schools.com/howto/default.asp .
